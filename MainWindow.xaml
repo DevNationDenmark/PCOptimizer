@@ -40,7 +40,7 @@
             <ContentControl x:Name="ContentArea" Grid.Row="0"/>
 
             <!-- Status Bar -->
-            <StackPanel Grid.Row="1" Background="#2d2d2d" Orientation="Horizontal" Padding="20" Height="60">
+            <StackPanel Grid.Row="1" Background="#2d2d2d" Orientation="Horizontal" Height="60" Margin="20">
                 <TextBlock x:Name="StatusText" Text="Ready" Foreground="#00d4ff" VerticalAlignment="Center" FontSize="12"/>
                 <TextBlock x:Name="CPUStatus" Text="CPU: 0%" Foreground="White" Margin="20,0,0,0" VerticalAlignment="Center" FontSize="12"/>
                 <TextBlock x:Name="RAMStatus" Text="RAM: 0%" Foreground="White" Margin="20,0,0,0" VerticalAlignment="Center" FontSize="12"/>
