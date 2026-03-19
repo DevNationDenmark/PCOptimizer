@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <AssemblyName>PCOptimizer</AssemblyName>
+    <RootNamespace>PCOptimizer</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>DevNationDenmark</Authors>
+    <Description>Advanced Windows PC Optimization Software</Description>
+    <PackageProjectUrl>https://github.com/DevNationDenmark/PCOptimizer</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="8.0.0" />
+    <PackageReference Include="System.Management" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
