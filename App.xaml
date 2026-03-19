@@ -1,0 +1,13 @@
+<Application x:Class="PCOptimizer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Color x:Key="PrimaryColor">#00d4ff</Color>
+        <Color x:Key="DarkBg">#1a1a1a</Color>
+        <Color x:Key="SecondaryBg">#2d2d2d</Color>
+        <SolidColorBrush x:Key="PrimaryBrush" Color="#00d4ff"/>
+        <SolidColorBrush x:Key="DarkBgBrush" Color="#1a1a1a"/>
+        <SolidColorBrush x:Key="SecondaryBgBrush" Color="#2d2d2d"/>
+    </Application.Resources>
+</Application>
